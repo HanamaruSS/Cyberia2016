@@ -621,7 +621,6 @@ input[type="reset"].alt,
   background: rgb(8,175,245);
 }
 
-
 input[type="button"].alt:hover,
 input[type="submit"].alt:hover,
 input[type="reset"].alt:hover,
@@ -718,7 +717,7 @@ header .icon.circled
 #header
 {
   position: relative;
-  background-image: url('../images/logo.jpg');
+  background-image: url('../images/poster.jpg');
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
