@@ -16,8 +16,8 @@
     src: url("../fonts/OpenSans-Light.ttf");
 }
 @font-face {
-    font-family: Qumpellka;
-    src: url("../fonts/QumpellkaNo12.otf");
+    font-family: Stripy;
+    src: url("../fonts/Stripy-Reg.ttf");
 }
 
 /*
@@ -61,7 +61,7 @@ body,input,textarea,select
 
 h1,h2,h3,h4,h5,h6
 {
-  font-family: Qumpellka;
+  font-family: Stripy;
   font-weight: 400;
   color: rgb(255,255,255);
   line-height: 1.25em;
@@ -77,7 +77,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong
 {
   font-weight: 600;
-  font-family: Qumpellka;
+  font-family: Stripy;
 }
 
 h2
@@ -722,14 +722,14 @@ header .icon.circled
   background-position: bottom;
   background-attachment: fixed;
   color: #fff;
-  font-family: Qumpellka;
+  font-family: Stripy;
   text-align: center;
   padding: 2.5em 0 2em 0;
   cursor: default;
 }
 
 #header h1 {
-  font-family: Qumpellka;
+  font-family: Stripy;
 }
 
 #signup, #facebook-page {
@@ -802,7 +802,7 @@ header .icon.circled
   display: inline-block;
   width: 5em;
   height: 2em;
-  font-family: Qumpellka;
+  font-family: Stripy;
   background-color: rgba(0,0,0,0.8);
   line-height: 1em;
   text-align: center;
