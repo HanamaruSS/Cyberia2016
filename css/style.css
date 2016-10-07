@@ -11,6 +11,14 @@
     font-family: Qumpellka;
     src: url("../fonts/QumpellkaNo12.otf");
 }
+@font-face {
+    font-family: OpenSansLight;
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: Qumpellka;
+    src: url("../fonts/QumpellkaNo12.otf");
+}
 
 /*
 Helios by HTML5 UP
@@ -145,7 +153,7 @@ p, ul, ol, dl, table
 p
 {
   text-align: justify;
-  font-family: fertigoPro;
+  font-family: OpenSansLight;
 }
 
 br.clear
@@ -579,7 +587,7 @@ input[type="reset"],
   position: relative;
   display: inline-block;
   background: rgba(0,0,0,0.8);
-  font-family: "fertigoPro";
+  font-family: "OpenSansLight";
   font-size: 1.8em;
   color: #fff;
   text-align: center;
