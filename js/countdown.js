@@ -6,12 +6,17 @@ function startTimer(duration, display) {
                 minutes = parseInt((timer / 60) % 60, 10);
                 seconds = parseInt(timer % 60, 10);
 
-                days = days < 10 ? "0" + days : days;
+                // add leading zero
+				// days = days < 10 ? "0" + days : days;
                 hours = hours < 10 ? "0" + hours : hours;
                 minutes = minutes < 10 ? "0" + minutes : minutes;
                 seconds = seconds < 10 ? "0" + seconds : seconds;
 
-                display.innerHTML = days + " days, " + hours + ":" + minutes + ":" + seconds;
+                if (days > 1) {
+					display.innerHTML = days + " days, " + hours + ":" + minutes + ":" + seconds;
+				} else {
+					display.innerHTML = days + " day, " + hours + ":" + minutes + ":" + seconds;
+				}
 
                 if (--timer < 0) {
                         timer = duration;
@@ -20,14 +25,14 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-        var t1 = Date.now();
-        var t2 = new Date(2016, 12, 5);
+        var t1 = Date.now(); /* number of milliseconds elapsed since 1 January 1970 00:00:00 UTC. */
+        var t2 = new Date(2016, 11, 5);  /* (year, month(0-11), day, hours, minutes, seconds, milliseconds) */
         var dif = t2.getTime() - t1;
         if (dif < 0) {
                 dif = 0;
         }
 
-        var Seconds_from_T1_to_T2 = dif / 1000;
+        var Seconds_from_T1_to_T2 = dif / 1000; /* convert from ms to s */
         var Seconds_Between_Dates = Math.abs(Seconds_from_T1_to_T2);
 
         var display = document.getElementById('registrationTime');
