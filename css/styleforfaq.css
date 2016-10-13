@@ -10,8 +10,9 @@ body{
 	width: 300px;
 	background-color: #996600;
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-	margin-right: 30px;
+	margin-right: 70px;
 	color: beige;
+	margin-bottom: 50px;
 
 }
 .sidebar a{
@@ -42,34 +43,36 @@ ul{
 .mainpart{
 	position: relative;
 	width: 100%;
-	top: 250px;
+  margin-top: 50px;
 	left: 40px;
 }
-.left-element{
+.left-element, .right-element{
 	top: 10px;
 	position:relative;
-	left: 10%;
-	float: left;
-	width: 200px;
+}
+.left-element{
+	left:10%;
+	float:left;
+	width: 20%px;
 }
 .right-element{
-	top: 10px;
-	position: relative;
-	left: 60%;
 	margin-left: 30px;
+	left: 70%;
+}
+#header1, .header2{
+	left:0%;
+	width: 100%;
+	display: flex;
+	padding: 0;
 }
 
 #header1{
-	left:0;
-	top: 0;
+	top: 0%;
 	position: fixed;
-	height: 50px;
+	height: 5%;
 	background-color: #996600;
 	color: #404040;
-	width: 100%;
-	display: flex;
 	font-family: Verdana,sans-serif;
-	padding: 0;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	z-index: 100;
 }
@@ -82,10 +85,7 @@ ul{
   text-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 .header2{
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 50px;
+	margin-top: 0px;
 	font-size: 50px;
 	z-index: -1;
 	display: flex;
@@ -100,7 +100,7 @@ ul{
 }
 .main-content{
 	float:left;
-	margin-left: 70px;
+	margin-left: 10px;
 	height: 300px;
 	font-size: 20px;
 	color: #404040;
@@ -114,9 +114,4 @@ ul{
 }
 .sec-faq{
 	margin-bottom: 50px;
-}
-#clock_for_countdown{
-	text-align: center;
-	display: inline-block;
-	 width: auto;
 }
