@@ -19,7 +19,6 @@
     <!-- <script src="js/skel-layers.min.js"></script> -->
     <script src="js/init.js"></script>
     <script src="js/init-carousel.js"></script>
-    <script src="js/countdown.js"></script>
     <script src="js/flipclock.js"></script>
     <noscript>
       <link rel="stylesheet" href="css/skel.css" />
@@ -39,9 +38,18 @@
   ga('send', 'pageview');
     </script>
     <link rel="icon" href="images/logo.ico">
+    <link rel="stylesheet" href="css/styleforfaq.css" />
   </head>
 
   <body class="homepage">
+
+    <div id="header1">
+        <a href="#" class="left-element">Welcome, friend!</a>
+        <a href="#" class="right-element">Home</a>
+        <a href="#" class="right-element secElement">Register</a>
+    </div>
+
+
 
     <div class="stars"></div>
     <div class="twinkling"></div>
@@ -122,8 +130,8 @@
       <article id="main" class="container special">
         <header>
           <h2>Time until Cyberia<div id="registrationTime"></div></h2><br>
-          <div class="master-clock">
-          <div class="clock">
+
+          <div class="clock" id="clock_for_countdown" >
 
             <script type="text/javascript">
                 var clock;
@@ -146,8 +154,8 @@
                           });
                         });
 
-          </script></div>
-          </div>
+          </script>
+        </div>
 
           <br>
           <p>
