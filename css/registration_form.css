@@ -1,7 +1,8 @@
 input[type=text], input[type=submit], input[type=password], #country{
     width: 80%;
-    padding: 12px 20px 12px 20px;
-    margin: 20px 20px;
+    margin: auto;
+    padding: 12px;
+    margin: 20px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
