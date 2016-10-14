@@ -47,7 +47,6 @@ ul{
 	left: 40px;
 }
 .left-element, .right-element{
-	top: 10px;
 	position:relative;
 }
 .left-element{
@@ -77,6 +76,7 @@ ul{
 	z-index: 100;
 }
 #header1 a{
+	top: 3px;
 	color: #404040;
 	text-decoration: none;
   opacity: 1.0;
