@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/registration_form.css">
-	  <title>
-	   	Register
-	  </title>
-</head>
-<body>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="../css/registration_form.css">
+                <link rel="icon" href="images/logo.ico">
 
-       <div id="header1">
-            <a href="" class="left-element">Welcome to Cyberia</a>
-            <link rel="stylesheet" href="../css/styleforfaq.css" />
-       </div>
+                <title>
+                        Register
+                </title>
+        </head>
+        <body>
 
-    <section class="registerform">
-    	<form action="register.php" method="POST">
+                <div id="header1">
+                        <a href="" class="left-element">Welcome to Cyberia</a>
+                        <link rel="stylesheet" href="../css/styleforfaq.css" />
+                </div>
 
-           <label for="uname">User Name</label><br>
-           <input type="text" id="uname" name="username" placeholder="User Name" required><br>
+                <section class="registerform">
+                        <form action="register.php" method="POST">
 
-           <label for="pw">Password</label><br>
-           <input type="password" id="pw" name="password" placeholder="Password" required><br>
+                                <label for="uname">User Name</label><br>
+                                <input type="text" id="uname" name="username" placeholder="User Name" required><br>
 
-           <label for="country">Country</label><br>
-              <select id="country" name="country">
-                 <option value="china">China</option>
-                 <option value="indonesia">Indonesia</option>
-                 <option value="Singapore">singapore</option>
-                 <option value="Malay">malay</option>
-             </select><br>
+                                <label for="pw">Password</label><br>
+                                <input type="password" id="pw" name="password" placeholder="Password" required><br>
 
-    <input type="submit" value="Submit">
-  </form>
-    </section>
-</body>
+                                <label for="country">Country</label><br>
+                                <select id="country" name="country">
+                                        <option value="china">China</option>
+                                        <option value="indonesia">Indonesia</option>
+                                        <option value="Singapore">singapore</option>
+                                        <option value="Malay">malay</option>
+                                </select><br>
+
+                                <input type="submit" value="Submit">
+                        </form>
+                </section>
+        </body>
 </html>
