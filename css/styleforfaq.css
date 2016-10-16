@@ -1,9 +1,10 @@
 body{
 	background-color: white;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
+
 .sidebar{
 
 	float: left;
@@ -29,7 +30,19 @@ body{
 	color: black;
 	font-weight: bold;
 	text-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	border-bottom: solid 1px rgba(128,128,128,0.15);
+	-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-o-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
+
+.sidebar a:hover{
+	color: rgb(8,175,245);
+	border-bottom-color: transparent;
+}
+
 .sidebar h2{
 	font-size: 20px;
 	font-family: Verdana,sans-serif;
@@ -43,7 +56,7 @@ ul{
 .mainpart{
 	position: relative;
 	width: 100%;
-  margin-top: 50px;
+	margin-top: 50px;
 	left: 40px;
 }
 .left-element, .right-element{
@@ -79,11 +92,23 @@ ul{
 	top: 3px;
 	color: #404040;
 	text-decoration: none;
-  opacity: 1.0;
-  font-size: 18px;
-  color: white;
-  text-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	opacity: 1.0;
+	font-size: 18px;
+	color: white;
+	text-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	border-bottom: solid 1px rgba(128,128,128,0.15);
+	-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-o-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+	transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
+
+#header1 a:hover{
+	color: rgb(8,175,245);
+	border-bottom-color: transparent;
+}
+
 .header2{
 	margin-top: 0px;
 	font-size: 50px;
