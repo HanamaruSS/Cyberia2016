@@ -9,7 +9,7 @@
 */
 
 body{
-	background-color: #404040;
+	background-color: black;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -124,7 +124,7 @@ ul{
 	display: flex;
 	color: white;
 	text-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-	background-color: #404040;
+	background-color: black;
 }
 #faqheader{
 	position: relative;
