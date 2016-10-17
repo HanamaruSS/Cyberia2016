@@ -13,13 +13,13 @@ body{
 }
 .sidebar_past{
 	float: left;
-	width: 300px;
+	width: 280px;
 	top: 0;
 	bottom: 0;
 	height: 100%;
 	background-color: #404040;
 	margin-right: 70px;
-	margin-left: 200px;
+	margin-left: 150px;
 	color: white;
 	margin-bottom: 50px;
 }
@@ -60,20 +60,24 @@ body{
 }
 
 .gallery{
-	margin-left: 570px;
+	margin-left: 500px;
 }
 .gallery img{
+  display: inline;
 	width: 350px;
 	height: 200px;
+	opacity: 0.7;
 	margin: 20px 20px 20px;
+	-webkit-transition: opactiy 0.5s ease-out;
+-moz-transition: opacity 0.5s ease-out;
+-o-transition: opacity 0.5s ease-out;
+transition: opacity 0.5s ease-out;
 }
-.img {
-	border: 10px solid #fff;
-	float: left;
-	overflow: hidden;
-
-	-webkit-box-shadow: 5px 5px 5px #111;
-	box-shadow: 5px 5px 5px #111;
+.gallery img:hover {
+	opacity: 1;
+}
+.range{
+	display: inline;
 }
 .left-element, .right-element{
 	position:relative;
@@ -86,20 +90,4 @@ body{
 .right-element{
 	margin-left: 30px;
 	left: 70%;
-}
-/*SHRINK*/
-.gallery img {
-	height: 200px;
-	width: 350px;
-
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
-}
-
-.gallery img:hover {
-	width: 300px;
-	height: 300px;
 }
