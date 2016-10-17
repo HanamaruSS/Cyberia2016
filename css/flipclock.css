@@ -201,16 +201,16 @@
 .flip-clock-divider .flip-clock-label {
   position: absolute;
   top: -1.5em;
-  right: -86px;
+  right: -100px;
   color: white !important;
   font-size: 25px !important;
   text-shadow: none; }
 
 .flip-clock-divider.minutes .flip-clock-label {
-  right: -88px; }
+  right: -110px; }
 
 .flip-clock-divider.seconds .flip-clock-label {
-  right: -91px; }
+  right: -120px; }
 
 .flip-clock-dot.top {
   top: 30px; }
@@ -430,7 +430,7 @@
 
   100% {
     opacity: 0; } }
-    
+
 .container #clock_for_countdown{
     	text-align: center;
     	display: inline-block;
