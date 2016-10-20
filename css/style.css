@@ -11,26 +11,33 @@ src: url("../fonts/Fertigo Pro Regular.ttf");
 font-family: Qumpellka;
 src: url("../fonts/QumpellkaNo12.otf");
 }
-*/
+ */
 
 @font-face {
-font-family: OpenSans;
-src: url("../fonts/OpenSans-Light.ttf");
+	font-family: OpenSans;
+	src: url("../fonts/OpenSans-Light.ttf");
 }
 
+@font-face {
+	font-family: Syncopate;
+	src: url("../fonts/syncopate.bold.ttf");
+}
 /*
 @font-face {
 font-family: Stripy;
 src: url("../fonts/Stripy-Reg.ttf");
-}*/
-@font-face {
-	font-family: Aniron;
-	src: url("../fonts/aniron.ttf");
 }
+
 @font-face {
-	font-family: TimeBurner;
-	src: url("../fonts/timeburnernormal.ttf");
+font-family: Aniron;
+src: url("../fonts/aniron.ttf");
 }
+
+@font-face {
+font-family: TimeBurner;
+src: url("../fonts/timeburnernormal.ttf");
+}
+ */
 
 /*
 Helios by HTML5 UP
@@ -73,7 +80,7 @@ body,input,textarea,select
 
 h1,h2,h3,h4,h5,h6
 {
-	font-family: Aniron;
+	font-family: Syncopate;
 	font-weight: 400;
 	color: rgb(255,255,255);
 	line-height: 1.25em;
@@ -89,7 +96,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong
 {
 	font-weight: 600;
-	font-family: Aniron;
+	font-family: Syncopate;
 }
 
 h2
@@ -734,14 +741,14 @@ header .icon.circled
 	background-position: bottom;
 	background-attachment: fixed;
 	color: #fff;
-	font-family: Aniron;
+	font-family: Syncopate;
 	text-align: center;
 	padding: 2.5em 0 2em 0;
 	cursor: default;
 }
 
 #header h1 {
-	font-family: Aniron;
+	font-family: Syncopate;
 }
 
 #signup, #facebook-page {
@@ -814,7 +821,7 @@ color: inherit;
 	display: inline-block;
 	width: 5em;
 	height: 2em;
-	font-family: Aniron;
+	font-family: Syncopate;
 	background-color: rgba(0,0,0,0.8);
 	line-height: 1em;
 	text-align: center;
@@ -1403,7 +1410,7 @@ background-color: #f2f2f2;
 position: relative;
 display: block;
 left: 50px;
-font-family: Aniron;
+font-family: Syncopate;
 }
 .main-content{
 float:left;
