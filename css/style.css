@@ -1283,16 +1283,14 @@ color: inherit;
 /* From styleforfaq.css                                                          */
 /*********************************************************************************/
 .left-element{
-	top: 10px;
 	position:relative;
 	left: 10%;
 	float: left;
 	width: 200px;
 }
 .right-element{
-	top: 10px;
 	position: relative;
-	left: 60%;
+	left: 65%;
 	margin-left: 30px;
 }
 #header1{
