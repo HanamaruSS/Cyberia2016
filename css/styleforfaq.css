@@ -28,7 +28,7 @@ body{
 
 }
 .sidebar a{
-	font-family: TimeBurner,sans-serif;
+	font-family: OpenSans,sans-serif;
 	text-decoration: none;
 	line-height: 2;
 	left: 10%;
@@ -99,7 +99,7 @@ position: fixed;
 height: 5%;
 background-color: #feb600;
 color: white;
-font-family: TimeBurner,sans-serif;
+font-family: OpenSans,sans-serif;
 box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 z-index: 100;
 }
@@ -144,7 +144,7 @@ transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-
 	margin-left: 10px;
 	height: 300px;
 	color: white;
-	font-family: TimeBurner,sans-serif;
+	font-family: OpenSans,sans-serif;
 }
 .main-content dt{
 	font-size: 24px;

@@ -11,10 +11,14 @@ src: url("../fonts/Fertigo Pro Regular.ttf");
 font-family: Qumpellka;
 src: url("../fonts/QumpellkaNo12.otf");
 }
+*/
+
 @font-face {
-font-family: OpenSansLight;
+font-family: OpenSans;
 src: url("../fonts/OpenSans-Light.ttf");
 }
+
+/*
 @font-face {
 font-family: Stripy;
 src: url("../fonts/Stripy-Reg.ttf");
@@ -161,7 +165,7 @@ p, ul, ol, dl, table
 p
 {
 	text-align: justify;
-	font-family: TimeBurner;
+	font-family: OpenSans;
 }
 
 br.clear
@@ -1301,7 +1305,7 @@ color: inherit;
 	width: 100%;
 	display: flex;
 	font-weight: 800;
-	font-family: TimeBurner, Verdana,sans-serif;
+	font-family: OpenSans, Verdana,sans-serif;
 	padding: 0;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	z-index: 199;
@@ -1318,7 +1322,7 @@ color: beige;
 
 }
 .sidebar a{
-font-family: TimeBurner,sans-serif;
+font-family: OpenSans,sans-serif;
 text-decoration: none;
 line-height: 2;
 left: 10%;
@@ -1334,7 +1338,7 @@ text-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 .sidebar h2{
 	font-size: 20px;
-	font-family: TimeBurner,sans-serif;
+	font-family: OpenSans,sans-serif;
 	margin-left: 20px;
 	text-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
@@ -1372,7 +1376,7 @@ ul{
 	width: 100%;
 	display: flex;
 	font-weight: 800;
-	font-family: TimeBurner, Verdana,sans-serif;
+	font-family: OpenSans, Verdana,sans-serif;
 	padding: 0;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	z-index: 199;
@@ -1409,7 +1413,7 @@ margin-left: 70px;
 height: 300px;
 font-size: 20px;
 color: #404040;
-font-family: TimeBurner,sans-serif;
+font-family: OpenSans,sans-serif;
 }
 .main-content dt{
 font-size: 22px;
