@@ -335,6 +335,8 @@ footer
 
 ul
 {
+	padding-left: 70px;
+	padding-bottom: 30px;
 }
 
 ul.default
