@@ -52,8 +52,8 @@ Free for personal and commercial use under the CCA 3.0 license
 
 body
 {
-	background: black;
 	color: rgb(255,255,255);
+	background-image: url("../images/background.jpg");
 }
 
 body.is-loading *
@@ -719,7 +719,7 @@ header .icon.circled
 .wrapper
 {
 	/*background: rgb(6,0,20);*/
-	background: rgb(0,0,0);
+	/*background: rgb(0,0,0);*/
 	padding: 2em 0 2em 0;
 }
 
