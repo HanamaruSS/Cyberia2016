@@ -25,7 +25,7 @@ body{
 	color: beige;
 	margin-bottom: 50px;
 	margin-left: 0px;
-
+	border-radius: 25px;
 }
 .sidebar a{
 	font-family: OpenSans,sans-serif;
@@ -109,9 +109,13 @@ z-index: 100;
 	position: fixed;
 	bottom: 0;
 	right: 70px;
+	-webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 .back-to-top-button:hover{
 	opacity: 0.7;
+	width: 100px;
+	height: 100px;
 }
 #header1 a{
 top: 3px;

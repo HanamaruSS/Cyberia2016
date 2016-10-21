@@ -10,5 +10,11 @@
 	border-bottom-color: transparent;
 }
 .modify1 h3{
-  color: blue;
+  color: #0080ff;
+
+}
+.modify2 a{
+  color: #0080ff;
+  position: relative;
+    bottom: 40px;
 }
